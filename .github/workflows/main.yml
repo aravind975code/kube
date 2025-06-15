@@ -1,0 +1,8 @@
+name:HelloWorld
+on:push
+jobs:
+ myjob:
+     runs on :ubtunu-latest
+     steps:
+      -name:mystep
+       run: echo"HelloWorld"
